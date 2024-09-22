@@ -1,8 +1,6 @@
 import React,{ useContext } from 'react';
 import Marquee from "react-fast-marquee";
-
 import './Skills.css'
-
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { skillsData } from '../../data/skillsData'
 import { skillsImage } from '../../utils/skillsImage'

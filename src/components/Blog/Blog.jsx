@@ -2,7 +2,6 @@ import React,{ useContext} from 'react';
 import { Link } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import { HiArrowRight } from "react-icons/hi";
-
 import './Blog.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { blogData } from '../../data/blogData'
