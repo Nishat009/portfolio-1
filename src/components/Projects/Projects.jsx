@@ -48,8 +48,8 @@ function Projects() {
                     <div className="projects--header">
                         <h1 style={{color: theme.primary}}>Projects</h1>
                     </div>
-                    <div className="projects--body">
-                        <div className="projects--bodyContainer">
+                    <div className="projects--body px-[8rem]">
+                        <div className="projects--bodyContainer grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center items-center gap-5">
                             {projectsData.slice(0, 3).map(project => (
                                 <SingleProject
                                     theme={theme}

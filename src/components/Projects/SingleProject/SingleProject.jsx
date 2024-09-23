@@ -72,7 +72,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     </div>
                 </div>
                 <p
-                    className='project--desc'
+                    className='project--desc mt-5'
                     style={{
                         background: theme.secondary,
                         color: theme.tertiary,

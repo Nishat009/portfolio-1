@@ -1,5 +1,4 @@
 .about {
-    min-height: 100vh;
     position: relative;
 }
 
@@ -33,7 +32,6 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 8rem;
-    height: fit-content;
 }
 
 .about-description {

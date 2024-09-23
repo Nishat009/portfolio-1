@@ -1,4 +1,4 @@
-.projects {
+/* .projects {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,7 +6,7 @@
     min-height: 100vh;
     overflow-x: hidden;
     padding: 2rem;
-}
+} */
 
 
 .projects--header {
@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 1rem;
+    /* margin: 1rem; */
 }
 
 
@@ -24,20 +24,21 @@
     font-family: var(--primaryFont);
 }
 
-.projects--body {
+/* .projects--body {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .projects--bodyContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4.5rem;
-    width: 100%;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-gap: 10px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 100%; */
 }
 
 .projects--viewAll {

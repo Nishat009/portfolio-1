@@ -68,7 +68,7 @@ function BlogPage() {
     const classes = useStyles();
 
     return (
-        <div className="blogPage" style={{backgroundColor: theme.secondary}}>
+        <div className="blogPage bg-orange-700" style={{backgroundColor: theme.secondary}}>
             <Helmet>
                 <title>{headerData.name} | Blog</title>
             </Helmet>

@@ -1,8 +1,8 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
+import one from '../assets/svg/projects/one.png'
+import two from '../assets/svg/projects/two.png'
+import three from '../assets/svg/projects/three.png'
+import four from '../assets/svg/projects/four.png'
+import five from '../assets/svg/projects/five.png'
 
 
 export const projectsData = [
@@ -35,21 +35,20 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'AI Chat SDk',
-        projectDesc: 'The chat module in Artifism is designed to facilitate real-time communication between users, enhancing collaboration and engagement within the platform. It supports seamless interactions and provides tools for effective messaging and support.',
-        tags: ['React', 'Tailwind CSS', 'JavaScript.', 'PHP script'],
-        code: '',
-        demo: 'https://demo.artifism.techvill.net/login',
-        image: four
-    },
-    {
-        id: 5,
         projectName: 'Techvill website',
         projectDesc: 'Techvill.net is the website of the techvillage software company.',
         tags: ['Nextjs', 'Tailwind CSS'],
         code: '',
         demo: 'https://techvill.net/',
+        image: four
+    },
+    {
+        id: 5,
+        projectName: 'AI Chat SDk',
+        projectDesc: 'The chat module in Artifism is designed to facilitate real-time communication between users, enhancing collaboration and engagement within the platform. It supports seamless interactions and provides tools for effective messaging and support.',
+        tags: ['React', 'Tailwind CSS', 'JavaScript.', 'PHP script'],
+        code: '',
+        demo: 'https://demo.artifism.techvill.net/login',
         image: five
     },
-   
 ]

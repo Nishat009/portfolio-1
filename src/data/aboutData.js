@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
     description1: "My name is Nishat Raihana Prantik. I'm a web designer and developer based in Dhaka, Bangladesh.",
-    description2: "During the day I work as a frontend Developer, at Techvillage which is a Software company. I spent my leisure hours learning new tech, spending time with my child and reading comics. Right now I'm also trying to learn backend based technology like laravel, php an so on. I love to learn and explore new arenas.",
+    description2: "By day, I'm a frontend developer at Techvillage, a software company. In my free time, I learn new tech, spend time with my child, and read comics. I'm also exploring backend technologies like Laravel and PHP, constantly eager to learn and grow.",
     image: 2
 }
