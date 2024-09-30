@@ -91,7 +91,7 @@
 @media screen and (max-width: 992px) {
     .skills {
         padding: 1rem;
-        min-height: 100%;
+        /* min-height: 100%; */
     }
     .skillsContainer {
         padding: 1rem;

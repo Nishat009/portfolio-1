@@ -103,9 +103,9 @@
 
 
 @media screen and (max-width: 992px) {
-    .experience {
+    /* .experience {
         min-height: 100%;
-    }
+    } */
     .experience-image {
         display: none;
     }

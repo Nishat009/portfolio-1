@@ -95,9 +95,9 @@
 
 
 @media screen and (max-width: 992px) {
-    .education {
+    /* .education {
         min-height: 100%;
-    }
+    } */
     .education-image {
         display: none;
     }
