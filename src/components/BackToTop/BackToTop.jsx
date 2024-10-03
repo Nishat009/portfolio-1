@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { IoIosArrowDropupCircle } from 'react-icons/io';
 import { makeStyles } from '@material-ui/core/styles';
-
 import { ThemeContext } from '../../contexts/ThemeContext';
 import './BackToTop.css';
 
@@ -40,7 +39,7 @@ function BackToTop() {
     return (
         <div
             style={{ display: visible ? 'inline' : 'none' }}
-            className='backToTop'
+            className='backToTop fixed'
         >
             <button onClick={scrollToTop} aria-label='Back to top'>
                 <IoIosArrowDropupCircle className={classes.icon} />

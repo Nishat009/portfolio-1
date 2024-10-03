@@ -42,12 +42,12 @@ function Blog() {
     return (
         <>
             {blogData.length > 0 && (
-                <div className="blog" id="blog" style={{backgroundColor: theme.secondary}}>
-                    <div className="blog--header">
+                <div className="blog flex flex-col items-center justify-start overflow-x-hidden pt-12 md:pt-0" id="blog" style={{backgroundColor: theme.secondary}}>
+                    <div className="blog--header flex justify-center items-center w-full">
                         <h1 style={{color: theme.primary}}>Blog</h1>
                     </div>
-                    <div className="blog--body">
-                        <div className="blog--bodyContainer">
+                    <div className="blog--body md:px-[8rem] px-5 w-full">
+                        <div className="blog--bodyContainer grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
                             {blogData.slice(0, 3).reverse().map(blog => (
                                 <SingleBlog 
                                     theme={theme}
@@ -63,7 +63,7 @@ function Blog() {
                         </div> 
 
                         {blogData.length > 3 && (
-                            <div className="blog--viewAll">
+                            <div className="blog--viewAll w-full flex items-center justify-end mt-[2rem] p-[2rem]">
                                 <Link to="/blog">
                                     <button className={classes.viewAllBtn}>
                                         View All

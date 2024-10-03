@@ -6,13 +6,11 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
-
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaCodepen,
+    FaStackOverflow
 } from 'react-icons/fa';
 
 function Landing() {
@@ -100,45 +98,32 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.codepen && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.codepen}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaCodepen 
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Codepen'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.stackOverflow && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.stackOverflow}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaStackOverflow  
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='stackOverflow'
                                 />
                             </a>
-                        )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )}
+                        )} 
                     </div>
                 </div>
                 <img

@@ -3,7 +3,8 @@ import two from '../assets/svg/projects/two.png'
 import three from '../assets/svg/projects/three.png'
 import four from '../assets/svg/projects/four.png'
 import five from '../assets/svg/projects/five.png'
-
+import six from '../assets/svg/projects/six.png'
+import seven from '../assets/svg/projects/seven.png'
 
 export const projectsData = [
     {
@@ -50,5 +51,23 @@ export const projectsData = [
         code: '',
         demo: 'https://demo.artifism.techvill.net/login',
         image: five
+    },
+    {
+        id: 6,
+        projectName: 'Vrent',
+        projectDesc: 'vRent is an online vacation rental booking website designed particularly for holiday rentals all over the world. vRent is exclusively designed to satisfy the needs of the landlords who want to seriously make money by listing vacation rentals from all around the globe.',
+        tags: ['PHP script', 'Bootstrap','Html', 'CSS', 'jquery', 'JavaScript.'],
+        code: '',
+        demo: 'https://demo.vrent.techvill.net/',
+        image: six
+    },
+    {
+        id: 7,
+        projectName: 'NasirCars',
+        projectDesc: 'NasirCars is an simple one page design for any car shop',
+        tags: ['Bootstrap','Html', 'CSS', 'JavaScript.'],
+        code: '',
+        demo: 'https://sitesimple009.netlify.app/',
+        image: seven
     },
 ]

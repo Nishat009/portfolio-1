@@ -45,10 +45,10 @@ function Projects() {
         <>
             {projectsData.length > 0 && (
                 <div className="projects" id="projects" style={{backgroundColor: theme.secondary}}>
-                    <div className="projects--header">
+                    <div className="projects--header flex justify-center items-center w-full">
                         <h1 style={{color: theme.primary}}>Projects</h1>
                     </div>
-                    <div className="projects--body px-[8rem]">
+                    <div className="projects--body md:px-[8rem] px-5">
                         <div className="projects--bodyContainer grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center items-center gap-5">
                             {projectsData.slice(0, 3).map(project => (
                                 <SingleProject
@@ -63,9 +63,8 @@ function Projects() {
                                 />
                             ))}
                         </div> 
-
                         {projectsData.length > 3 && (
-                            <div className="projects--viewAll">
+                            <div className="projects--viewAll w-full flex items-center justify-end mt-[2rem] p-[2rem]">
                                 <Link to="/projects">
                                     <button className={classes.viewAllBtn}>
                                         View All

@@ -40,7 +40,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 className='singleProject'
                 style={{ backgroundColor: theme.primary400 }}
             >
-                <div className='projectContent'>
+                <div className='projectContent flex flex-col items-center justify-between w-full h-full'> 
                     <h2
                         id={name.replace(' ', '-').toLowerCase()}
                         style={{ color: theme.tertiary }}
@@ -48,7 +48,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                         {name}
                     </h2>
                     <img src={image ? image : placeholder} alt={name} />
-                    <div className='project--showcaseBtn'>
+                    <div className='project--showcaseBtn flex items-center justify-between w-full'>
                         <a
                             href={demo}
                             target='_blank'
